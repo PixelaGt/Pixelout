@@ -1,0 +1,14 @@
+@mixin align-right {
+  margin-left: auto;
+}
+
+@mixin align-left {
+  margin-right: auto;
+}
+.align-right {
+  margin-left: auto;
+}
+
+.align-left {
+  margin-right: auto;
+}
