@@ -1,0 +1,57 @@
+Arguments: 
+  /home/sixpack/.nvm/versions/node/v5.10.1/bin/node /usr/share/yarn/bin/yarn.js publish --access public
+
+PATH: 
+  /home/sixpack/.nvm/versions/node/v5.10.1/bin:/home/sixpack/.rbenv/plugins/ruby-build/bin:/home/sixpack/.rbenv/shims:/home/sixpack/.rbenv/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/lib/jvm/java-8-oracle/bin:/usr/lib/jvm/java-8-oracle/db/bin:/usr/lib/jvm/java-8-oracle/jre/bin
+
+Yarn version: 
+  0.24.5
+
+Node version: 
+  5.10.1
+
+Platform: 
+  linux x64
+
+npm manifest: 
+  {
+    "name": "@pixela/pixelout",
+    "version": "0.1.0",
+    "description": "Grid system",
+    "main": "base.scss",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": "git+https://github.com/PixelaGt/Pixelout.git",
+    "keywords": [
+      "pixela",
+      "sass",
+      "grid",
+      "system"
+    ],
+    "author": "SixPack-AA",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/PixelaGt/Pixelout/issues"
+    },
+    "homepage": "https://github.com/PixelaGt/Pixelout#readme"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
+
+Trace: 
+  Error: https://registry.yarnpkg.com/@pixela%2fpixelout: "You cannot publish over the previously published version 0.1.0."
+      at Request.params.callback [as _callback] (/usr/share/yarn/lib/yarn-cli.js:56242:18)
+      at Request.self.callback (/usr/share/yarn/lib/yarn-cli.js:107837:22)
+      at emitTwo (events.js:100:13)
+      at Request.emit (events.js:185:7)
+      at Request.<anonymous> (/usr/share/yarn/lib/yarn-cli.js:108820:10)
+      at emitOne (events.js:90:13)
+      at Request.emit (events.js:182:7)
+      at Gunzip.<anonymous> (/usr/share/yarn/lib/yarn-cli.js:108740:12)
+      at Gunzip.g (events.js:273:16)
+      at emitNone (events.js:85:20)
