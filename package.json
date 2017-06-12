@@ -1,0 +1,24 @@
+{
+  "name": "pixelout",
+  "version": "0.1.0",
+  "description": "Grid system",
+  "main": "base.scss",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PixelaGt/Pixelout.git"
+  },
+  "keywords": [
+    "sass",
+    "grid",
+    "pixela"
+  ],
+  "author": "SixPack-AA",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/PixelaGt/Pixelout/issues"
+  },
+  "homepage": "https://github.com/PixelaGt/Pixelout#readme"
+}
