@@ -1,26 +1,27 @@
+$base-grid: 12 !default; //Número de cuantas columnas está compuesto nuestro grid
+$base-margin: 8px !detault;
+$max-width: 80vw !default;
+
 @mixin grid {
     width: 100%;
-    max-width: 80vw;
+    max-width: $max-width;
     margin: 0 auto;
     padding: 48px;
 }
 
-@mixin row{
+@mixin row {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: center;
 }
 
-@mixin column{
+@mixin column {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
   justify-content: center;
 }
 
-$base-grid: 12; //Número de cuantas columnas está compuesto nuestro grid
-$base-margin: 8px;
 // $columns = Cuantas columnas ocupará el elemento
 @mixin cols($columns) {
   $margin: 2 * $base-margin;
